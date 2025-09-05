@@ -71,7 +71,7 @@ if os.getenv('POSTGRES_DB') is None:
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': '/data/db.sqlite3',
         }
-    } 
+    }
 else:
     DATABASES = {
         'default': {
